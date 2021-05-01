@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(43, 46, 53);
+}
+/* Header Style Start */
+header{
+    background-color: rgb(43, 46, 53);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1{
+    background-color: rgb(126, 197, 197);
+    color: rgb(43, 46, 53);
+    font-size: 46px;
+    padding: 0px 10px 0px 60px ;
+    margin: 10px 0px ;
+}
