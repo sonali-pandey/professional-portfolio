@@ -20,6 +20,33 @@ header h1{
     background-color: rgb(126, 197, 197);
     color: rgb(43, 46, 53);
     font-size: 46px;
-    padding: 0px 10px 0px 60px ;
-    margin: 10px 0px ;
+    padding: 0 10px 0 60px ;
+    margin: 10px 0 ;
 }
+/* Header Style ends */
+
+/* Navigation Style Starts */
+
+header nav{
+    margin: 20px;
+  }
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 10px;
+    padding: 0 10px 5px 10px;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-decoration: none;
+    border-bottom:rgb(126, 197, 197) solid;
+    color: rgb(126, 197, 197);
+  }
+
+  /* Navigation Style Ends */
