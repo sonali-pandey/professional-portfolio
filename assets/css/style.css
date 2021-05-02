@@ -186,3 +186,64 @@ header nav ul li a {
 }
 
 /* Article style ends */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+    }
+
+    header h1{
+        width: 100%;
+        text-align:center;
+    }
+
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    .hero h2{
+        width: 50%;
+    }
+
+    .flex-row p a{
+        margin: 0px;
+    }
+
+  }
+
+  @media screen and (max-width: 758px) {
+    header {
+        padding-bottom: 0;
+    }
+
+    header h1{
+        width: 100%;
+        text-align:center;
+    }
+
+    header nav ul{
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a{
+        font-size: 15px;
+    }
+
+    .hero h2{
+        width: 50%;
+    }
+
+    .flex-row p a{
+        margin: 0px;
+    }
+
+  }
