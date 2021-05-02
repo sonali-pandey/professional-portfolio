@@ -50,3 +50,24 @@ header nav ul li a {
   }
 
   /* Navigation Style Ends */
+
+  /* Hero Style Starts */
+.hero {
+    background-image: url("http://placeimg.com/640/360/any");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+.hero h2{
+    background-color: rgb(126, 197, 197);
+    width: 22%;
+    text-align: center;
+    margin: 5%;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+/* Hero Style Ends */
