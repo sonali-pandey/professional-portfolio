@@ -7,7 +7,7 @@
 * Work section shows all the projects of the employee and on clicking on the application names takes you to the deployed application.
 * The UI has a rrsponsive layout and adopts to the different screen-sizes.
 
-##Screens
+## Screens
 ![A black Header of the webpage with name and navigation liks for about me, work, and contact section with a lates picture beneath the header](./assets/images/screen1.png)
 ![Responsive layour Article section with about me details, projects details, and contact me details](./assets/images/screen2.png)
 
