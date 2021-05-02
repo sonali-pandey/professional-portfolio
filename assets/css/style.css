@@ -71,3 +71,118 @@ header nav ul li a {
     line-height: 1.2;
   }
 /* Hero Style Ends */
+
+/* Article Style Starts */
+.section-title{
+    font-size: 48px;
+    color: rgb(58,78,105);
+    padding-right: 20px;
+    font-weight: lighter;
+    flex: 0.11;
+
+}
+
+.flex-row p{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.flex-row{
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content:flex-start;
+    margin: 10px 30px 10px;
+    padding: 10px;
+    width:80%;
+}
+
+.flex-row p .link{
+    text-decoration: none;
+    color:rgb(43, 46, 53);
+    border-bottom: 3px rgb(58,78,105) solid;
+    margin: 20px;
+}
+
+.about-me{
+    border-left: 3px solid rgb(58,78,105);
+    margin: 0 20px;
+}
+
+/* Project display style starts */
+.p1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-size: cover;
+    margin: 0 20px;
+    border-left: 3px solid rgb(58,78,105);
+}
+
+.p2{
+    display: flex;
+}
+
+.p2-1{
+  border: 5px solid rgb(126, 197, 197);
+  background-image: url(app-02.png);
+  background-size: cover;
+  flex: 1;
+  margin: 0px 10px 10px 20px;
+}
+
+.p2-2{
+    border: 5px solid rgb(126, 197, 197);
+    background-image: url(app-02.png);
+    background-size: cover;
+    flex:1;
+    margin: 10px 10px 10px 20px;
+}
+
+.p2-3{
+  border: 5px solid rgb(126, 197, 197);
+  background-image: url(app-03.png);
+  background-size: cover;
+  flex: 1;
+  margin: 10px;
+}
+.p2-4{
+    border: 5px solid rgb(126, 197, 197);
+    background-image: url(app-02.png);
+    background-size: cover;
+    flex:1;
+    margin: 10px 10px 10px 20px;
+}
+
+.p2-5{
+  border: 5px solid rgb(126, 197, 197);
+  background-image: url(app-03.png);
+  background-size: cover;
+  flex:1;
+  margin: 10px;
+}
+.p2 a{
+    background-color: rgb(126, 197, 197);
+    padding: 10px;
+    text-align:center;
+    text-decoration: none;
+    color:rgb(43, 46, 53);
+    font-size: 22px;
+}
+
+.p2 #app1{
+    margin: 100px;
+}
+/* Project display ends */
+
+/* Footer (Contact Information) Flex */
+  .footer{
+  border-left: 3px solid rgb(58,78,105);
+  flex-grow:2;
+}
+
+/* Article style ends */
